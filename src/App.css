@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Cookie';
+  src: url('./fonts/Cookie/Cookie-Regular.ttf') format('truetype');
+
+  font-family: 'Quicksand';
+  src: url('./fonts/Quicksand/Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Cookie';
+}
+
+
+main{
+  background-color: #ECEBF5;
+}
+
