@@ -3,10 +3,11 @@
     --cor-primaria: #9D98CA;
     --cor-secundaria: #F8C7DD;
     --cor-terciaria: #ACD7DE;
+    --cor-escrito: #8259BD;
 }
 
 header{
-    height: 160px;
+    height: 140px;
     background-color: var(--cor-fundo);
 
     display: flex;
@@ -17,8 +18,9 @@ header{
 }
 
 .Logo{
-    width: 270px;
-    height: 130px;
+    width: 13%;
+    height: 90%;
+    margin-left: 120px;
 }
 
 .Logo:hover{
@@ -34,6 +36,7 @@ nav{
     display: inline-block;
     list-style: none;
     margin: 0 20px;
+    padding: 10px;
 }
 
 .menu a {
@@ -50,24 +53,31 @@ nav{
 }
 
 .whatsapp{
-    width: 250px;
-    height: 60px;
-    padding: 0px 20px;
+    width: 280px;
+    height: 40px;
+    padding: 10px 20px;
     border-radius: 50px;
     
     text-align: center;
+
     background: var(--cor-primaria);
+
+    display: flex;
+    flex-direction: row;
+}
+
+.icone_what{
+    margin-right: 20px;
 }
 
 .whatsapp a{
-    color: var(--cor-fundo);
-
+    color: white;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
 .whatsapp:hover{
-    background: var(--cor-secundaria);
+    background: var(--cor-terciaria);
     color: var(--cor-fundo);
 }
