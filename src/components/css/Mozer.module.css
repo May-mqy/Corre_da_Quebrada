@@ -1,0 +1,68 @@
+.fundo_mozer{
+
+}
+
+.conteudo_mozer{
+    width: 80%;
+    margin: 60px auto auto auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.escrito_mozer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.escrito_mozer p{
+    padding: 10px 30px;
+    text-align: justify;
+    font-size: 32px;
+}
+
+.titulo_mozer{ 
+    font-family: Cookie;
+    color:var(--cor-primaria);
+
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.fundo_foto{
+    display: flex;
+    margin: auto;
+
+}
+
+.foto_mozer{
+    width: 430px;
+    height: 530px;
+    border-radius:20px;
+    background-image: url(../../assets/images/foto-neia-mozer.png);
+    background-position:50%;
+    border: 15px solid var(--cor-terciaria);
+    box-shadow: 5px 5px 20px var(--cor-terciaria);
+    animation: float 3.5s ease-in-out infinite;
+}
+
+.foto_mozer:hover{
+    border: 15px solid var(--cor-secundaria);
+    box-shadow: 5px 5px 20px var(--cor-secundaria);
+
+}
+
+@keyframes float {
+    0% {
+    transform: translateY(0);
+  }
+    50% {
+    transform: translateY(-12px);
+  }
+    100% {
+    transform: translateY(0);
+  }
+}
