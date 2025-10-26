@@ -23,14 +23,14 @@ function Header(){
 
                 <ul>
                     <li className={Styles.whatsapp}>
-                        <a href="#">
-                            <img 
+                        <a href="https://wa.me/5511961002548?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido." 
+                        target="_blank" rel="noopener noreferrer">
+                            <img
                                 src={Whatsapp} 
                                 alt="Ícone Whatsapp" 
                                 className={Styles.icone_what}
-                            />
-                            Whatsapp
-                        </a>
+                            />Whatsapp
+                        </a>  
                     </li>
                 </ul>
             </nav>

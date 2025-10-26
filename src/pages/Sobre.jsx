@@ -1,4 +1,4 @@
-import Styles from '../components/css/pages.module.css'
+/*import Styles from '../components/css/pages.module.css'*/
 
 function Sobre() {
   return (

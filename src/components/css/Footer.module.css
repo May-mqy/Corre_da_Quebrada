@@ -1,0 +1,47 @@
+footer {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background: #B8A8D8; /* Roxo base */
+  overflow: hidden;
+}
+
+/* Faixa superior */
+.wave1 {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  background: #F4DDF0; /* Rosa clarinho */
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 50% 65%, 0 45%);
+}
+
+/* Segunda onda */
+.wave2 {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  height: 160px;
+  background: #F9A5C8; /* Rosa médio */
+  clip-path: polygon(0 25%, 100% 10%, 100% 70%, 50% 85%, 0 60%);
+}
+
+/* Terceira onda */
+.wave3 {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  height: 170px;
+  background: #D396D3; /* Roxo rosado */
+  clip-path: polygon(0 45%, 100% 25%, 100% 90%, 50% 100%, 0 80%);
+}
+
+/* Onda inferior (faz transição suave) */
+.wave4 {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  height: 200px;
+  background: #B8A8D8; /* Cor do fundo */
+  clip-path: polygon(0 50%, 100% 35%, 100% 100%, 0 100%);
+}

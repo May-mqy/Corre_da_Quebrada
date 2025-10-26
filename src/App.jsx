@@ -1,3 +1,5 @@
+import './App.css';
+
 import { Routes, Route } from 'react-router-dom'; 
 import Home from "./pages/Home.jsx"; 
 import Catalogo from "./pages/Catalogo.jsx"; 
@@ -5,7 +7,6 @@ import Sobre from "./pages/Sobre.jsx";
 
 function App() {
   return (
-    // <Routes> agrupa as rotas e é usado dentro do <BrowserRouter> que deve estar no main.jsx
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/catalogo" element={<Catalogo />} />
