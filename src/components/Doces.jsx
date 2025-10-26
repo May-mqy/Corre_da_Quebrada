@@ -24,7 +24,7 @@ function Doces (){
 
                     <div className={Styles.escrito_caixa}>
                         <h3 className={Styles.titulo_caixa}>Brigadeiros</h3>
-                        <p>Descubra nossos brigadeiros <br />artesanais, cremosos e <br /> irresistíveis. Clique e conheça <br /> todos os sabores!</p>
+                        <p>Descubra nossos brigadeiros artesanais, cremosos e irresistíveis. Clique e conheça  todos os sabores!</p>
                     </div>
                 </div>
                     <img src={Brigadeirinho} alt="Unidade brigadeiro" className={Styles.docinho_icone} />
@@ -38,7 +38,7 @@ function Doces (){
 
                     <div className={Styles.escrito_caixa}>
                         <h3 className={Styles.titulo_caixa}>Suspiros</h3>
-                        <p>Leves, crocantes e feitos com <br /> carinho em cada detalhe. <br /> Veja as opções e se apaixone!   </p>
+                        <p>Leves, crocantes e feitos com carinho em cada detalhe. Veja as opções e se apaixone!   </p>
                     </div>
                 </div>
                     <img src={Suspirinho} alt="Unidade brigadeiro" className={Styles.docinho_icone_suspiro} />
@@ -51,7 +51,7 @@ function Doces (){
 
                     <div className={Styles.escrito_caixa}>
                         <h3 className={Styles.titulo_caixa}>Caramelizados</h3>
-                        <p>O equilíbrio perfeito entre <br /> doçura e textura. Explore <br /> nossas delícias caramelizadas!</p>
+                        <p>O equilíbrio perfeito entre doçura e textura. Explore nossas delícias caramelizadas!</p>
                     </div>
                 </div>
                     <img src={Maca} alt="Unidade brigadeiro" className={Styles.docinho_icone_maca} />
