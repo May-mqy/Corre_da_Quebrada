@@ -5,6 +5,8 @@ import Facebook from '../assets/images/facebook-icon.svg';
 import Whatsapp  from '../assets/images/whatsapp-icon.svg';
 import Logo from '../assets/images/logo.svg'
 
+import { Link } from "react-router-dom"
+
 
 function Footer (){
     return (
@@ -33,11 +35,11 @@ function Footer (){
                     <section className={Styles.footer_meio}>
                         <p><span className={Styles.destaque_footer}>Nossos Doces</span></p>
                         <div className={Styles.itens_mapa}>
-                            <p>Brigadeiro</p>
-                            <p>Suspiros</p>
-                            <p>Caramelizados</p>
-                            <p>Bolos</p>
-                            <p>Paleta Gourmet</p>
+                            <p><Link to="/catalogo">Brigadeiro</Link></p>
+                            <p><Link to="/catalogo">Suspiros</Link></p>
+                            <p><Link to="/catalogo">Caramelizados</Link></p>
+                            <p><Link to="/catalogo">Bolos</Link></p>
+                            <p><Link to="/catalogo">Paleta Gourmet</Link></p>
                         </div>
                     </section>
 
