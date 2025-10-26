@@ -4,6 +4,8 @@ footer {
     height: 850px;
     background-color: yellowgreen;
     background-image: url(../../assets/images/fundo-footer.png);
+    background-repeat: no-repeat;
+    background-position: cover;
     overflow: hidden;
 }
 
