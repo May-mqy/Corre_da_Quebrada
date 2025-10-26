@@ -1,8 +1,16 @@
 /*import Styles from '../components/css/pages.module.css'*/
 
+import Header from '../components/Header'
+import Conteudoc from '../components/Conteudoc'
+import Footer from '../components/Footer'
+
 function Catalogo() {
   return (
-    <h1>Página Catalogo de Doces</h1>
+     <main>
+      <Header />
+      <Conteudoc/>
+      <Footer/>
+    </main>
   );
 }
 

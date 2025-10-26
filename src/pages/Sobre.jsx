@@ -1,9 +1,17 @@
 /*import Styles from '../components/css/pages.module.css'*/
 
-function Sobre() {
+import Header from '../components/Header'
+import Conteudo from '../components/Conteudos.jsx'
+import Footer from '../components/Footer'
+
+export default  function Sobre() {
   return (
-    <h1>Página Sobre</h1>
+    <main>
+      <Header />
+      <Conteudo/>
+      <Footer/>
+    </main>
   );
 }
 
-export default Sobre;
+Sobre;
