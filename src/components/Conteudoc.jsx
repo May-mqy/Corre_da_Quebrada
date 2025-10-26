@@ -29,7 +29,7 @@ function Conteudoc() {
                 <p>Natal</p>
             </aside>
 
-        <section>
+        <section className={Styles.menu_geral}>
             {/* Nosso Catálogo */}
             <section className={Styles.catalogo}>
                 <h2><span className={Styles.destaque2}>Nosso Catalogo</span></h2>
@@ -86,6 +86,7 @@ function Conteudoc() {
     </section>
         </div>
 
+        <div className={Styles.wave1}> <p></p></div>
 </section>
     )
 }
