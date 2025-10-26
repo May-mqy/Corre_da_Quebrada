@@ -32,6 +32,16 @@ function Footer (){
                     </section>
 
                     {/* Meio footer*/}
+                    <section className={Styles.footer_meio_meio}>
+                        <p><span className={Styles.destaque_footer}>Mapa de Site</span></p>
+                        <div className={Styles.itens_mapa}>
+                            <p><Link to="/">Homepage</Link></p>
+                            <p><Link to="/catalogo">Catalogo de Doces</Link></p>
+                            <p><Link to="/sobre">Quem somos?</Link></p>
+                        </div>
+                    </section>
+
+                    {/* Meio footer*/}
                     <section className={Styles.footer_meio}>
                         <p><span className={Styles.destaque_footer}>Nossos Doces</span></p>
                         <div className={Styles.itens_mapa}>
