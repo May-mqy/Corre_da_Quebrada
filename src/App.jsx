@@ -1,26 +1,17 @@
-import './App.css'
-
-import Header from './components/Header.jsx'
-import Inicio from './components/Inicio.jsx'
-import Doces from './components/Doces.jsx'
-import Mozer from './components/Mozer.jsx'
-import Feedbacks from './components/Feedbacks.jsx'
-
-
+import { Routes, Route } from 'react-router-dom'; 
+import Home from "./pages/Home.jsx"; 
+import Catalogo from "./pages/Catalogo.jsx"; 
+import Sobre from "./pages/Sobre.jsx";    
 
 function App() {
-
   return (
-    <main>
-      <Header />
-      <Inicio/>
-      <Doces/>
-      <Mozer/>
-      <Feedbacks/>
-
-   
-    </main>
-  )
+    // <Routes> agrupa as rotas e é usado dentro do <BrowserRouter> que deve estar no main.jsx
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/catalogo" element={<Catalogo />} />
+      <Route path="/sobre" element={<Sobre />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
