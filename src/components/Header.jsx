@@ -3,8 +3,9 @@ import Styles from './css/Header.module.css';
 import Logo from '../assets/images/logo.png'
 import Whatsapp from '../assets/images/social-links-whatsapp.svg'
 
-import { Link } from "react-router-dom";
-
+import { Link } from "react-router-dom"
+import { Link as LinkScroll } from "react-scroll"
+ 
 function Header(){
     return(
         <header>
@@ -19,6 +20,7 @@ function Header(){
                     <li><Link to="/">Início</Link></li>
                     <li><Link to="/catalogo">Catálogo de Doces</Link></li>
                     <li><Link to="/sobre">Quem somos?</Link></li>
+                    {/*<li><LinkScroll to="/depoimentos" smooth={true} duration={500}>Depoimentos</LinkScroll></li>*/}
                 </ul>
 
                 <ul>
