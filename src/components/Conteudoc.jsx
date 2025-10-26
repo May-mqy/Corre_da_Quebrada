@@ -7,6 +7,9 @@ import Suspiro from '../assets/images/foto-suspiro.jpg';
 import Paleta from '../assets/images/foto-paleta.jpg';
 import PaoDeMel from '../assets/images/foto-paodemel.jpg';
 
+import Professores from '../assets/images/foto-giz-dia-professores.jpg'
+import Pascoa from '../assets/images/ovo-suspiro-chocolate.jpg'
+
 function Conteudoc() {
     return (
     <section className={Styles.fundo_catalogo}>
@@ -24,7 +27,7 @@ function Conteudoc() {
 
                 <h3><span className={Styles.destaque1}>Sazonais</span></h3>
                 <p>Páscoa</p>
-                <p>Mulheres</p>
+                <p>Professores</p>
                 <p>Aniversários</p>
                 <p>Natal</p>
             </aside>
@@ -66,12 +69,12 @@ function Conteudoc() {
                 <h2><span className={Styles.destaque2}>Sazonais</span></h2>
                 <div className={Styles.itens}>
                     <div className={Styles.item}>
-                        <img src={Brigadeiro} alt="Páscoa" />
+                        <img src={Pascoa} alt="Páscoa" />
                         <p>Páscoa</p>
                     </div>
                     <div className={Styles.item}>
-                        <img src={Caramelizado} alt="Mulheres" />
-                        <p>Mulheres</p>
+                        <img src={Professores} alt="Professores" />
+                        <p>Dia Professores</p>
                     </div>
                     <div className={Styles.item}>
                         <img src={Bolo} alt="Natal" />

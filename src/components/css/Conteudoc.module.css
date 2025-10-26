@@ -94,9 +94,14 @@ h2 {
     margin-bottom: 10px;
 }
 
+.item img:hover {
+    border:5px solid #f560a3;
+}
+
 .item p {
     text-align: center;
-    font-size: 16px;
+    font-size: 26px;
+    font-weight: 500;
 }
 
 .wave1{
