@@ -111,3 +111,88 @@ h2 {
     position:absolute;
     top:1765px;
 }
+
+/* ----- RESPONSIVIDADE ----- */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .fundo_catalogo{
+        height: 4900px;
+    }
+
+    .wave1{
+        top:5100px;
+    }
+
+    .catalogo_container {
+        flex-direction: column; 
+    }
+
+    .filtros {
+        width: 100%;
+        margin-left: 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .menu_geral {
+        gap: 2230px;
+    }
+
+    .itens {
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+    }
+
+    .item {
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .item img {
+        height: auto;
+    }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+    .itens {
+        gap: 15px;
+    }
+
+    .item {
+        width: 90%;
+    }
+
+    .destaque2 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .filtros p {
+        font-size: 18px;
+    }
+}
+
+/* Celulares muito pequenos */
+@media (max-width: 480px) {
+    .destaque2 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .item p {
+        font-size: 20px;
+    }
+
+    .filtros p {
+        font-size: 16px;
+    }
+}
