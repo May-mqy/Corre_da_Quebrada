@@ -116,4 +116,22 @@
 }
 
 
+/* ----- RESPONSIVIDADE ----- */
 
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .depoimentos_fundo2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 550px;
+}
+
+.fundo_depoimentos{
+    height: 1800px;
+}
+
+.titulo_depoimentos{
+   margin-top: -200px;
+}
+}

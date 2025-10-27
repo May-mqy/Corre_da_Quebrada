@@ -1,5 +1,5 @@
 .fundo_mozer{
-
+    height: auto;
 }
 
 .conteudo_mozer{
@@ -92,4 +92,26 @@
 
 .botao_mozer:hover{
     background: var(--cor-terciaria);
+}
+
+/* ----- RESPONSIVIDADE INICIO ----- */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .conteudo_mozer{
+    width: 80%;
+    margin: 60px auto auto auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+    .fundo_mozer{
+    height: 1200px;
+}
+
+.foto_mozer{
+    margin-top: 100px;
+}
+
 }

@@ -89,3 +89,86 @@ p{
   height: 100%;
   object-fit: cover; /* Faz o vídeo preencher sem distorcer */
 }
+
+/* ----- RESPONSIVIDADE INICIO ----- */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    section{
+    height: 300px;
+}
+
+    .organizacao {
+        flex-direction: column; /* empilha conteúdo */
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .direita {
+        display: none; /* esconde a coluna do vídeo */
+    }
+
+    .esquerda {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 26px;
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .botoes {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+    .esquerda {
+        padding: 40px 15px;
+        gap: 20px;
+    }
+
+    .titulo {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .esquerda a {
+        width: 180px;
+        font-size: 18px;
+    }
+}
+
+/* Celulares muito pequenos */
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-left: -90px;
+    }
+
+    .esquerda a {
+        width: 160px;
+        font-size: 16px;
+    }
+}

@@ -128,3 +128,109 @@ footer {
     width: 15%;
     height: 250px;
 }
+
+/* Celulares e telas pequenas */
+@media (max-width: 768px) {
+    .itens_mapa p a{
+    font-size: 18px;
+}
+
+}
+
+/* ----- RESPONSIVIDADE FOOTER ----- */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    footer {
+        height: auto;
+        padding: 50px 20px;
+        background-size: cover;
+    }
+
+    .conteudo_footer {
+        padding: 150px 20px 20px 20px;
+    }
+
+    .conteudo_escrito_footer {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .footer_esquerdo,
+    .footer_meio,
+    .footer_meio_meio,
+    .footer_direito {
+        width: 80%;
+        text-align: center;
+    }
+
+    .social_links {
+        justify-content: center;
+    }
+
+    .itens_mapa p a {
+        font-size: 20px;
+    }
+
+    .logo_footer {
+        width: 30%;
+        margin-left: 0;
+    }
+}
+
+/* Celulares e telas pequenas */
+@media (max-width: 768px) {
+    footer {
+        padding: 400px 40px 300px 0px;
+        
+    }
+
+    .conteudo_footer {
+        padding: 100px 10px 10px 10px;
+    }
+
+    .conteudo_escrito_footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer_esquerdo,
+    .footer_meio,
+    .footer_meio_meio,
+    .footer_direito {
+        width: 100%;
+    }
+
+    .logo_footer {
+        width: 40%;
+    }
+
+    .social_links {
+        gap: 15px;
+    }
+
+    .itens_mapa p a {
+        font-size: 18px;
+    }
+}
+
+/* Celulares muito pequenos */
+@media (max-width: 480px) {
+    .logo_footer {
+        width: 50%;
+    }
+
+    .itens_mapa p a {
+        font-size: 16px;
+    }
+
+    .social_links {
+        gap: 10px;
+    }
+
+    footer {
+        padding: 900px 0px;
+        background-image: url(../../assets/images/fundo-footer-mobile.png);
+    }
+}

@@ -157,3 +157,19 @@
     text-decoration: none;
     font-size: 28px;
 }
+
+
+/* ----- RESPONSIVIDADE ----- */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .caixas_destaques{
+    flex-direction: column;
+    align-items: center;
+}
+    .fundo_doces{
+    background-color: var(--cor-primaria);
+    height: 2100px;
+    padding: 60px 0;
+    }
+}
