@@ -7,8 +7,10 @@ import Suspiro from '../assets/images/foto-suspiro.jpg';
 import Paleta from '../assets/images/foto-paleta.jpg';
 import PaoDeMel from '../assets/images/foto-paodemel.jpg';
 
-import Professores from '../assets/images/foto-giz-dia-professores.jpg'
+import Professores from '../assets/images/caixinha-dia-professores-brigadeiro.jpg'
 import Pascoa from '../assets/images/ovo-suspiro-chocolate.jpg'
+import Natal from '../assets/images/arvore-suspiro-unidade.jpg'
+import Aniversario from '../assets/images/foto-cupcake.jpg'
 
 function Conteudoc() {
     return (
@@ -77,11 +79,11 @@ function Conteudoc() {
                         <p>Dia Professores</p>
                     </div>
                     <div className={Styles.item}>
-                        <img src={Bolo} alt="Natal" />
+                        <img src={Natal} alt="Natal" />
                         <p>Natal</p>
                     </div>
                     <div className={Styles.item}>
-                        <img src={PaoDeMel} alt="Aniversários" />
+                        <img src={Aniversario} alt="Aniversários" />
                         <p>Aniversários</p>
                     </div>
                 </div>
