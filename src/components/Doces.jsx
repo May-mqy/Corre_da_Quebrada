@@ -8,6 +8,8 @@ import Maca from '../assets/images/maca-sem-fundo.png'
 import Suspiro from '../assets/images/foto-suspiro.jpg'
 import Suspirinho from '../assets/images/suspiro-sem-fundo.png'
 
+import { Link } from 'react-router-dom';
+
 
 
 function Doces (){
@@ -59,6 +61,8 @@ function Doces (){
 
 
             </section>
+
+            <Link to="/catalogo" className={Styles.botao1}>Ver Catálogo</Link>
         </section>
 
     )
