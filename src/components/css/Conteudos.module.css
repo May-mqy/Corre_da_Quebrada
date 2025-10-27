@@ -68,16 +68,6 @@
     margin: auto;
 }
 
-@media(min-width: 768px){
-    .secao_historia {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .fundo_historia {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 
 /* Imagem da história */
 .imagem_historia {
@@ -117,4 +107,30 @@
     border-left: 4px solid var(--cor-primaria);
     padding-left: 1rem;
     margin-top: 1rem;
+}
+
+/* ----- RESPONSIVIDADE ----- */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .fundo_historia {
+        flex-direction: column; 
+    }
+    
+    .secao_historia{
+    height: 800px;
+    }
+
+    .inicial_sobre {
+        margin-top: 20px;
+
+        p{
+        font-size: 22px;
+        }
+    }
+
+    .fundo_sobre {
+        min-height: 1100px;
+
+    }
 }
