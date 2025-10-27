@@ -134,4 +134,9 @@
 .titulo_depoimentos{
    margin-top: -200px;
 }
+
+.texto_depoimentos{
+    font-size: 18px;
+    margin-left: 0px;
+}
 }
