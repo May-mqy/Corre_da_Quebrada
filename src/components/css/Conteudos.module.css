@@ -1,7 +1,7 @@
 /* Fundo da seção Sobre */
 .fundo_sobre {
     width: 100%;
-    min-height: 11vh; /* substitui height fixa */
+    min-height: 940px;
     background-color: var(--cor-fundo);
     display: flex;
     flex-direction: column;
@@ -15,13 +15,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center; /* centraliza texto em telas pequenas */
+    text-align: center; 
 }
 
 .titulo_conteudo_sobre {
     font-family: 'Cookie';
     font-size: clamp(3.5rem, 8vw, 5rem); /* responsivo */
-    margin-top: -2rem; /* ajustado para telas pequenas */
+    margin-top: -2rem;
     font-weight: 500;
 }
 
@@ -82,8 +82,8 @@
 /* Imagem da história */
 .imagem_historia {
     height: 400px;
-    width: 100%; /* fica responsivo no mobile */
-    max-width: 400px; /* limite de largura em telas grandes */
+    width: 100%; 
+    max-width: 400px; 
     background-image: url(../../assets/images/neia-foto-sobre.jpg);
     background-position: center center;
     background-size: cover;
@@ -96,7 +96,7 @@
     align-items: center;
     justify-content: center;
     border: 5px solid var(--cor-primaria);
-    margin: 0 auto; /* centraliza no mobile */
+    margin: 0 auto;
 }
 
 /* Texto da história */
