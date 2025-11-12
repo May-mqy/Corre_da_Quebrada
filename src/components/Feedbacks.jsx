@@ -1,8 +1,8 @@
 import Styles from './css/Feedbacks.module.css'
 
 import Pessoa1 from '../assets/images/maymay.jpg'
-import Pessoa2 from '../assets/images/pessoa2-feedback.jpg'
-import Pessoa3 from '../assets/images/pessoa3-nida-feedback.jpg'
+import Pessoa2 from '../assets/images/pessoa-feedback.jpg'
+import Pessoa3 from '../assets/images/pessoa-nida-feedback.jpg'
 
 
 function Feedbacks (){
